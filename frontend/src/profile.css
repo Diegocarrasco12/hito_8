@@ -1,0 +1,29 @@
+.gradient-custom {
+    background: linear-gradient(to bottom, #343a40, #6c757d);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-body {
+    color: #333;
+}
+
+.card-body h6 {
+    color: #495057;
+}
+
+
+.btn-warning:hover {
+    background-color: #e67e22;
+}
+
+.fab {
+    transition: color 0.2s ease-in-out;
+}
+
+.fab:hover {
+    color: #ff8c00;
+}

@@ -1,0 +1,71 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img {
+    border-radius: 10px 0 0 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+}
+
+.list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline-item {
+    margin: 5px 10px; /* Espaciado entre los ingredientes */
+    font-size: 1rem;  /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.card-img-top {
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+}

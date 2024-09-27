@@ -1,0 +1,11 @@
+.navbar .d-flex.align-items-center {
+    margin-left: auto; /* Alinea el contenedor de perfil y carrito a la derecha */
+}
+
+.navbar .nav-link {
+    margin-right: 15px; /* Ajusta el espacio entre los elementos del Navbar */
+}
+
+.navbar .navbar-text {
+    margin-right: 15px; /* Ajusta el espacio entre el texto del carrito y el ícono del perfil */
+}

@@ -1,0 +1,123 @@
+
+.dropdown-menu-right {
+    right: 10;
+    left: auto;
+  }
+  
+  .dropdown-menu {
+    /* position: absolute; */
+    top: 40px; /* Ajusta este valor según sea necesario */
+    right: 20px; /* Ajusta este valor según sea necesario */
+    /* z-index: 100; */
+    outline: none;
+    box-shadow: none;
+    user-select: none; /* Evita la selección del contenido */
+  }
+  
+  
+  .dropdown-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-footer {
+    margin-top: 5px;
+    text-align: right;
+  }
+  
+  .dropdown-item {
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    user-select: none; /* Evita la selección del contenido */
+  }
+  
+   
+  /* Estilos para los botones */
+  /* .btn {
+    border: 1px solid transparent; 
+  } */
+  
+  
+  .dropdown-menu-content {
+    background-color: white;
+    color: white;
+    border: 1px solid #101102;
+    padding: 5px;
+    /* max-width: 400px; */
+    max-width: 100%;
+    width: auto;
+    box-sizing: border-box;
+    max-height: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+ 
+  .dropdown-menu-content:focus,
+  .dropdown-menu-content:active {
+      background-color: white !important; /* O el color que prefieras */
+  }
+
+
+  
+.dropdown-menu-content *:focus,
+.dropdown-menu-content *:active {
+    background-color: transparent !important;
+    
+}
+
+.dropdown-menu-content {
+user-select: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+.dropdown-menu-content * {
+user-select: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+
+.dropdown-menu-content .btn {
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 0.25rem;
+}
+
+.dropdown-menu-content .btn:focus,
+.dropdown-menu-content .btn:active {
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu-content .btn-sm {
+  font-size: 0.85rem;
+  padding: 2px 6px;
+  border-radius: 100px;
+}
+
+.dropdown-menu-content .d-flex {
+  align-items: center;
+}
+
+.dropdown-menu-content img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.dropdown-menu-content .dropdown-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

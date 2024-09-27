@@ -1,0 +1,84 @@
+
+.slick-slide {
+    padding: 10px; /* Espacio entre slides */
+  }
+  
+  .slick-prev, .slick-next {
+    font-size: 20px;
+    color:  rgba(0, 0, 0, 0.8);
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+      
+      color: grey; /* Mantén las flechas visibles en hover */
+  }
+  
+  .slick-dots{
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: center !important; /* Asegura que se aplique */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-prev, .slick-next {
+    font-size: 15px;
+    color: white; /* Asegura que las flechas sean visibles */
+    color:  rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slick-prev {
+      left: -60px; /* Ajusta la posición a la izquierda */
+  }
+  
+  .slick-next {
+      right: -60px; /* Ajusta la posición a la derecha */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+      content: none; /* Asegura que no haya contenido antes */
+  }
+
+  .card {
+    transition: transform 0.2s ease-in-out;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.card-text {
+    color: #777;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-sm:hover {
+    background-color: #555;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "email": "test@test.com",
+    "password": "$2a$10$Ry.VBh99i7chnPyF3ltcbeTTdnTPcshffsVZ8eYu0LP9PWb5fMkle",
+    "id": "1"
+  },
+  {
+    "id": 2,
+    "email": "diegoc@desafiolatam.com",
+    "password": "$2a$10$bo8nzAkUl52j/lbUDHztXuV7VvB5TRw/3PyLyhQf99bCjzczxcg/C"
+  },
+  {
+    "id": 3,
+    "email": "test@desafiolatam.com",
+    "password": "$2a$10$QvktcZlQj3j4BwflBD9fGeMOwqDTjC3ulAFzf6mnLLxP8HpRjNhzK"
+  }
+]
